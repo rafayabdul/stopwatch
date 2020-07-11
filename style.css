@@ -1,0 +1,132 @@
+.screen{
+    display: inline-block;
+   
+    text-align: center;
+}
+.nummin,.numsec,.nummil{
+    background-color:rgb(33, 160, 111);
+    margin-top: 60px;
+    font-size: 80px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgb(20, 82, 58) inset;
+    
+    
+}
+.main{
+    align-items: center;
+    /* background-color:black; */
+    background-image: url(cover.jpg);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 30%;
+    padding-bottom: 30px;
+    
+    
+}
+.major{
+    background-color:grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.vn{
+    color: blanchedalmond;
+
+}
+.btnst,.btnpa,.btnre{
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 7px;
+    width: 120px;
+    border-radius: 50px;
+    /* border: 3px solid rgb(33, 160, 111) ; */
+    border: whitesmoke;
+    box-shadow:3px 3px 3px 3px gray inset;
+    background-color: rgb(192,192,192);
+
+    
+
+}
+.btnpa,.btnre{
+    margin-left: 20px;
+}
+.tithe{
+    color: honeydew;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.spa{
+    font-size: 20px;
+}
+.spa2{
+    border-top: 2px solid red;
+    display: block;
+    margin-top: -49px;
+    margin-bottom: 50px;
+    width: 21%;
+    
+
+}
+.spa3{
+    border-top: 2px solid red;
+    display: block;
+    margin-bottom: -60px;
+    width: 21%;
+}
+.sche{
+    color: whitesmoke;
+    /* -ms-transform: rotate(20deg); */
+    transform: rotate(270deg);
+    margin-left: -250px;
+    margin-right: -30px;
+}
+@media only screen and (max-width: 770px){
+    .main{
+        width: 100%;
+    }
+    .sche{
+        margin: 0 auto;
+        transform: rotate(0deg);
+        padding-bottom: 20px;
+        
+
+    }
+    
+}
+
+/* .blinking{
+    animation:blinkingText 1.2s infinite;
+    
+} */
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: #000; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+.datescr{
+    color: whitesmoke;
+    background-color:rgb(33, 160, 111);
+    /* margin-bottom: 50px; */
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    padding:7px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgb(20, 82, 58) inset;
+    animation:blinkingText 0.5s infinite;
+}
+.stt{
+    animation:blinkingText 0.8s infinite;   
+}
+.im{
+    margin-left: 20px;
+}
